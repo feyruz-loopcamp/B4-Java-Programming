@@ -6,6 +6,7 @@ import java.util.Arrays;
  * This method returns the minimum value in the given int array
  */
 public class ArrayUtil {
+
     public static int minNumInArr (int [] arr){
         int min = 0;
         Arrays.sort(arr); // [2, 23, 23, 345, 765, 1356, 2344]
